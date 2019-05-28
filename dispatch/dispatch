@@ -1,0 +1,10 @@
+[
+  % Show logon, redirect back to remote site after authentication
+  {auth_service_logon,       [ "auth-service", "logon", token ], controller_template,   [ {template, "auth_service_logon.tpl"} ]},
+  {auth_service_logon_done,  [ "auth-service", "logon-done", token ], controller_template,   [ {template, "auth_service_logon_done.tpl"} ]},
+
+  % Access points for remote site
+  {auth_service_remote,      [ "auth-service", "request-token"], controller_auth_service, [ {cmd, 'request-token'} ]},
+  {auth_service_remote,      [ "auth-service", "exchange-token"], controller_auth_service, [ {cmd, 'exchange-token'} ]},
+  {auth_service_remote,      [ "auth-service", "sync-users"], controller_auth_service, [ {cmd, 'sync-users'} ]}
+].
