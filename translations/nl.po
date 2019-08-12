@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-08-12 13:49+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Marc Worrell <marc@worrell.nl>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:30
+msgid "After signing in we redirect to"
+msgstr "Na het aanmelden gaan we door naar"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:32
+msgid "After signing in we redirect to your site."
+msgstr "Na het aanmelden gaan we door naar uw site."
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:36
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: user/modules/mod_auth_service/templates/_auth_service_logon_form.tpl:18
+msgid "Go back"
+msgstr "Ga terug"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:58
+msgid "Invalid token"
+msgstr "Ongeldig token"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:3
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:3
+msgid "Login"
+msgstr "Inloggen"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:21
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:23
+msgid "Sign in"
+msgstr "Log in"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:59
+msgid "The token is unknown or already used. Go back and try again."
+msgstr "Het token is onbekend of reeds gebruikt. Ga terug en probeer het opnieuw."
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:28
+msgid "You are signed in, you can now continue to"
+msgstr "U bent aangemeld, u kunt nu verder gaan met"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:30
+msgid "You are signed in, you can now continue to your site."
+msgstr "U bent aangemeld, u kunt nu verder gaan naar uw site."
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:37
+msgid "You need to authenticate, even if you were previously signed in."
+msgstr "U moet zich authenticeren, ook al was u eerder aangemeld."

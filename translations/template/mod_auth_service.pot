@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon.tpl:30 
+msgid ""
+"After signing in we redirect to"
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon.tpl:32 
+msgid ""
+"After signing in we redirect to your site."
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:36 
+msgid ""
+"Continue"
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/_auth_service_logon_form.tpl:18 
+msgid ""
+"Go back"
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon.tpl:58 
+msgid ""
+"Invalid token"
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:3 ./user/modules/mod_auth_service/templates/auth_service_logon.tpl:3 
+msgid ""
+"Login"
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:21 ./user/modules/mod_auth_service/templates/auth_service_logon.tpl:23 
+msgid ""
+"Sign in"
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon.tpl:59 
+msgid ""
+"The token is unknown or already used. Go back and try again."
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:28 
+msgid ""
+"You are signed in, you can now continue to"
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:30 
+msgid ""
+"You are signed in, you can now continue to your site."
+msgstr ""
+
+#: ./user/modules/mod_auth_service/templates/auth_service_logon.tpl:37 
+msgid ""
+"You need to authenticate, even if you were previously signed in."
+msgstr ""

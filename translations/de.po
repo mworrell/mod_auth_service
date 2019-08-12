@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-08-12 13:52+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Marc Worrell <marc@worrell.nl>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:30
+#, fuzzy
+msgid "After signing in we redirect to"
+msgstr "Nach der Anmeldung leiten wir weiter an"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:32
+#, fuzzy
+msgid "After signing in we redirect to your site."
+msgstr "Nach der Anmeldung leiten wir Sie auf Ihre Seite weiter."
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:36
+msgid "Continue"
+msgstr "Fortfahren"
+
+#: user/modules/mod_auth_service/templates/_auth_service_logon_form.tpl:18
+msgid "Go back"
+msgstr "Zurück"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:58
+msgid "Invalid token"
+msgstr "Token ungültig"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:3
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:3
+msgid "Login"
+msgstr "Anmeldung"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:21
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:23
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:59
+#, fuzzy
+msgid "The token is unknown or already used. Go back and try again."
+msgstr "Das Token ist unbekannt oder bereits verwendet. Gehen Sie zurück und versuchen Sie es erneut."
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:28
+msgid "You are signed in, you can now continue to"
+msgstr "Sie sind angemeldet, Sie können jetzt weitermachen"
+
+#: user/modules/mod_auth_service/templates/auth_service_logon_done.tpl:30
+msgid "You are signed in, you can now continue to your site."
+msgstr "Sie sind angemeldet, du kannst jetzt auf Ihrer Seite weitermachen."
+
+#: user/modules/mod_auth_service/templates/auth_service_logon.tpl:37
+#, fuzzy
+msgid "You need to authenticate, even if you were previously signed in."
+msgstr "Sie müssen sich authentifizieren, auch wenn Sie zuvor angemeldet waren."
