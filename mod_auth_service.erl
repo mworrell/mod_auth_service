@@ -31,6 +31,7 @@
 -mod_title("Auth Service").
 -mod_description("Sign on service for adding Zotonic authentication to a pre-configured other site.").
 -mod_schema(1).
+-mod_dependes([ acl, mod_content_groups ]).
 
 -behaviour(gen_server).
 
@@ -105,6 +106,14 @@ lookup_token(Token, Context) when is_binary(Token) ->
 
 
 pid_observe_logon_actions(Pid, #logon_actions{ args = [ {auth_service_logon, Token} ]}, Actions, Context) ->
+    z:info("User ~p authenticated using ~p from ~s",
+           [
+                z_acl:user(Context),
+                m_identity:get_username(Context),
+                m_req:get(peer, Context)
+           ],
+           [ {module, ?MODULE} ],
+           Context),
     Token1 = z_convert:to_binary(Token),
     ok = gen_server:call( Pid, {set_token_user, Token1, z_acl:user(Context)}),
     [
