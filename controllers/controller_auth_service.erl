@@ -181,6 +181,10 @@ sync_user({struct, UserProps}, Context) ->
                 {error, eexist} ->
                     lager:warning("Remote service updating duplicate account for '~s' (ignored external id ~s, local id ~p)",
                                  [ Email, RemoteIdBin, LocalId ]),
+                    LocalId;
+                {error, Reason} ->
+                    lager:warning("Remote service updating ~p error for account for '~s' (ignored external id ~s, local id ~p)",
+                                 [ Reason, Email, RemoteIdBin, LocalId ]),
                     LocalId
             end;
         {error, notfound} ->
